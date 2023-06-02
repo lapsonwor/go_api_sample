@@ -1,0 +1,29 @@
+{
+  "database": {
+    "host": "127.0.0.1",
+    "port": "5432",
+    "username": "postgres_admin",
+    "password": "password",
+    "dbname": "backend_db",
+    "SSLMode": "disable",
+    "maxIdleConn": 10,
+    "maxOpenConn": 100
+  },
+  "api_server": {
+    "port": 3000,
+    "worker_password": "",
+    "minigame_password": "",
+    "cert_file": "localhost.crt",
+    "key_file": "",
+    "file_server": {
+      "scheme": "https",
+      "host": "s3.amazonaws.com"
+    },
+    "swagger_enable": true
+  },
+  "meta_json": {
+    "ipfs_img_url" : "",
+    "buildng_ipfs_img_url": "",
+    "external_url": ""
+  }
+}
